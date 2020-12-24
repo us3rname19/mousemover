@@ -3,7 +3,7 @@
 ## Installation:
 
 1. Install python3.X & pip
-2. Install lib
+2. Install libs:
 ```bash
 pip install pyautogui
 ```
