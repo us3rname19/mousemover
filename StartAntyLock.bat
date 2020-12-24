@@ -1,0 +1,1 @@
+python .\AntiLocker.py %*
