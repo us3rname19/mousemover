@@ -18,7 +18,7 @@ def main():
                 pyautogui.moveTo(currentMouseX, currentMouseY)  # Move mouse back
                 for minute in list_m:
                     if strftime("%M",gmtime())[1] == minute:
-                        keyboard.press('alt')
+                        keyboard.press_and_release('alt')
                         break
                 sleep(60)
                 
