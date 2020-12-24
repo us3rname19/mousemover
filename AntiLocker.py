@@ -6,6 +6,7 @@ from time import sleep, gmtime, strftime
 screenWidth, screenHeight = pyautogui.size() # Get the size of the primary monitor.
 list_m = ['0','4','8','2','6']
 
+print("Скрипт запущен!")
 while True:
     currentMouseX, currentMouseY = pyautogui.position()
     pyautogui.moveTo(currentMouseX-1, currentMouseY)
