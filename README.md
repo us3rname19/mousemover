@@ -1,5 +1,4 @@
-# AntyLocker
-## Prevent lock screen.
+## Script prevent lock screen.
 
 ## Installation:
 
