@@ -1,9 +1,9 @@
 # AntyLocker
-# Prevent lock screen.
+## Prevent lock screen.
 
-# Installation:
+## Installation:
 
-1. Install python
+1. Install python3.X & pip
 2. Install lib
 ```bash
 pip install pyautogui
