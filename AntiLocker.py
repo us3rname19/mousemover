@@ -11,18 +11,16 @@ def main():
         print("Script is running!")
         while True:
             currentMouseX, currentMouseY = pyautogui.position() # Get X&Y coords.
-            pyautogui.moveTo(currentMouseX-1, currentMouseY)    # Move X - 1 pic
+            pyautogui.moveTo(currentMouseX-5, currentMouseY)    # Move X - 1 pic
             newMouseX,newMouseY = pyautogui.position()
-
-            if currentMouseX != newMouseX and currentMouseY != newMouseY: sleep(200)
+            if currentMouseX != newMouseX and currentMouseY != newMouseY: sleep(60)
             else: 
                 pyautogui.moveTo(currentMouseX, currentMouseY)  # Move mouse back
-
                 for minute in list_m:
-                    if strftime("%M",gmtime())[1] == minute: 
+                    if strftime("%M",gmtime())[1] == minute:
                         keyboard.press('alt')
                         break
-                sleep(200)
+                sleep(60)
                 
     except KeyboardInterrupt:
         pass 
