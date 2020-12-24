@@ -11,7 +11,7 @@ def main():
         print("Script is running!")
         while True:
             currentMouseX, currentMouseY = pyautogui.position() # Get X&Y coords.
-            pyautogui.moveTo(currentMouseX-5, currentMouseY)    # Move X - 1 pic
+            pyautogui.moveTo(currentMouseX-5, currentMouseY)    # Move X - 5p
             newMouseX,newMouseY = pyautogui.position()
             if currentMouseX != newMouseX and currentMouseY != newMouseY: sleep(60)
             else: 
