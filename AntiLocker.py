@@ -18,9 +18,7 @@ def main():
             else: 
                 pyautogui.moveTo(currentMouseX, currentMouseY)  # Move mouse back
 
-                # If not use keyboard press alt else break
                 for minute in list_m:
-                    if keyboard.read_key(): break
                     if strftime("%M",gmtime())[1] == minute: 
                         keyboard.press('alt')
                         break
